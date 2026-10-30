@@ -1,0 +1,3 @@
+// Regional AVERAGES, not lab values. Real fields vary; do a soil test for exact results.
+export type Soil='Alluvial'|'Black'|'Red'|'Laterite'|'Sandy'|'Mountain'
+export const soilByState:Record<string,Soil>={'Punjab':'Alluvial','Haryana':'Alluvial','Uttar Pradesh':'Alluvial','Bihar':'Alluvial','West Bengal':'Alluvial','Delhi':'Alluvial','Assam':'Alluvial','Maharashtra':'Black','Madhya Pradesh':'Black','Gujarat':'Black','Telangana':'Red','Andhra Pradesh':'Red','Tamil Nadu':'Red','Karnataka':'Red','Odisha':'Red','Jharkhand':'Red','Chhattisgarh':'Red','Kerala':'Laterite','Goa':'Laterite','Rajasthan':'Sandy','Himachal Pradesh':'Mountain','Uttarakhand':'Mountain','Jammu and Kashmir':'Mountain','Sikkim':'Mountain'}

@@ -1,0 +1,1 @@
+export default {content:['./index.html','./src/**/*.{ts,tsx}'],theme:{extend:{colors:{sky:'#CDE8F6',cream:'#FFF8E1',leaf:'#2E7D32',crop:'#4CAF50',paddy:'#9CCC65',wheat:'#F2B84B',harvest:'#E08E2B',soil:'#6D4C41',ink:'#2B2B2B'},fontFamily:{head:['Poppins','sans-serif'],body:['Inter','sans-serif']},borderRadius:{card:'24px'}}}}

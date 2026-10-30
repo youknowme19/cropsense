@@ -1,0 +1,10 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{@apply font-body text-ink bg-cream}h1,h2,h3{@apply font-head}
+.card{@apply bg-white/90 rounded-card shadow-lg p-5}.btn{@apply min-h-[48px] px-5 rounded-full font-semibold bg-leaf text-white inline-flex items-center justify-center gap-2 hover:bg-crop}
+.grow{stroke-dasharray:200;stroke-dashoffset:200;animation:g 1s forwards}@keyframes g{to{stroke-dashoffset:0}}
+.pop{transform:scale(0);transform-box:fill-box;transform-origin:center bottom;animation:p .5s forwards}@keyframes p{to{transform:scale(1)}}
+.sway{animation:s 2s ease-in-out infinite;transform-origin:50% 100%}@keyframes s{50%{transform:rotate(3deg)}}
+.drift{animation:d 40s linear infinite}@keyframes d{from{transform:translateX(-20%)}to{transform:translateX(120vw)}}
+.fade{animation:f .8s forwards;opacity:0}@keyframes f{to{opacity:1}}
+@keyframes bob{50%{transform:translateY(-8px)}}.bob{animation:bob 1.2s infinite}
+@media(prefers-reduced-motion:reduce){*{animation-duration:.01s!important;animation-iteration-count:1!important}}
